@@ -1,4 +1,4 @@
-import footwears from './footwears'
+import footwears from './footwear'
 import apparels from './apparels'
 import accessories from './accessories'
 
