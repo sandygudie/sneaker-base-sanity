@@ -37,6 +37,20 @@ export default {
       },
     },
     {
+      name: 'category',
+      type: 'string',
+      title: 'Category',
+      options: {
+        list: [
+          {title: 'Cap', value: 'cap'},
+          {title: 'Bags', value: 'bags'},
+          {title: 'Ball', value: 'ball'},
+          {title: 'Socks', value: 'socks'},
+          {title: 'Guards', value: 'guard'},
+        ],
+      },
+    },
+    {
       name: 'color',
       type: 'array',
       title: 'Color',
@@ -50,6 +64,7 @@ export default {
           {title: 'Green', value: 'Green'},
           {title: 'Orange', value: 'Orange'},
           {title: 'Gray', value: 'Gray'},
+          {title: 'Neutral', value: 'neutral'},
       
         ],
       },

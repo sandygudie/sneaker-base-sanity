@@ -51,6 +51,7 @@ export default {
           {title: 'Green', value: 'Green'},
           {title: 'Orange', value: 'Orange'},
           {title: 'Gray', value: 'Gray'},
+          {title: 'Neutral', value: 'neutral'},
       
         ],
       },
