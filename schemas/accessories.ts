@@ -32,7 +32,9 @@ export default {
           {title: 'M', value: 'M'},
           {title: 'L', value: 'L'},
           {title: 'XL', value: 'XL'},
-      
+          {title: '2XL', value: '2XL'},
+          {title: '3XL', value: '3XL'},
+          {title: 'OS', value: 'OS'},
         ],
       },
     },
@@ -86,14 +88,13 @@ export default {
     {
       name: 'timeline',
       type: 'string',
-      title: 'TImeline',
+      title: 'Timeline',
       options: {
         list: [
-          {title: 'Oldest', value: 'oldest'},
-          {title: 'Newest', value: 'newest'},
+          {title: 'Latest', value: 'latest'},
+          {title: 'Sales', value: 'sales'},
         ],
       },
-      invitialValue: {title: 'Newest', value: 'newest'},
     },
   ],
 }

@@ -34,6 +34,7 @@ export default {
           {title: 'XL', value: 'XL'},
           {title: '2XL', value: '2XL'},
           {title: '3XL', value: '3XL'},
+          {title: 'OS', value: 'OS'},
         ],
       },
     },
@@ -88,9 +89,12 @@ export default {
       title: 'Category',
       options: {
         list: [
-          {title: 'Casual', value: 'casual'},
+          {title: 'Jersey', value: 'Jersey'},
+          {title: 'Shirts', value: 'Shirts'},
           {title: 'Joggers', value: 'joggers'},
+          {title: 'Shorts', value: 'Shorts'},
           {title: 'Sport', value: 'sport'},
+
         ],
       },
     },
@@ -102,21 +106,22 @@ export default {
         list: [
           {title: 'Running', value: 'running'},
           {title: 'Basketball', value: 'basketball'},
-          {title: 'Casual', value: 'casual'},
+         
+
         ],
       },
+      hidden: ({parent}: any) => parent.category !== 'Sport',
     },
     {
       name: 'timeline',
       type: 'string',
-      title: 'TImeline',
+      title: 'Timeline',
       options: {
         list: [
-          {title: 'Oldest', value: 'oldest'},
-          {title: 'Newest', value: 'newest'},
+          {title: 'Latest', value: 'latest'},
+          {title: 'Sales', value: 'sales'},
         ],
       },
-      invitialValue: {title: 'Newest', value: 'newest'},
     },
   ],
 }

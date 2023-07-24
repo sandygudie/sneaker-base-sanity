@@ -45,6 +45,17 @@ export default {
           {title: 'UK 9', value: 'UK 9'},
           {title: 'UK 9.5', value: 'UK 9.5'},
           {title: 'UK 10', value: 'UK 10'},
+          {title: 'UK 10.5', value: 'UK 10.5'},
+          {title: 'UK 11', value: 'UK 11'},
+          {title: 'UK 11.5', value: 'UK 11.5'},
+          {title: 'UK 12', value: 'UK 12'},
+          {title: 'UK 12.5', value: 'UK 12.5'},
+          {title: 'UK 13', value: 'UK 13'},
+          {title: 'UK 13.5', value: 'UK 13.5'},
+          {title: 'UK 14', value: 'UK 14'},
+          {title: 'UK 14.5', value: 'UK 14.5'},
+          {title: 'UK 15', value: 'UK 15'},
+          
         ],
       },
     },
@@ -115,6 +126,7 @@ export default {
           {title: 'Casual', value: 'casual'},
         ],
       },
+      hidden: ({parent}: any) => parent.category !== 'Sneaker',
     },
     {
       name: 'timeline',
@@ -122,11 +134,10 @@ export default {
       title: 'Timeline',
       options: {
         list: [
-          {title: 'Oldest', value: 'oldest'},
-          {title: 'Newest', value: 'newest'},
+          {title: 'Latest', value: 'latest'},
+          {title: 'Sales', value: 'sales'},
         ],
       },
-      invitialValue: {title: 'Newest', value: 'newest'},
     },
   ],
 }
