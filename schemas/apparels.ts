@@ -52,7 +52,9 @@ export default {
           {title: 'Green', value: 'Green'},
           {title: 'Orange', value: 'Orange'},
           {title: 'Gray', value: 'Gray'},
+          {title: 'Brown', value: 'brown'},
           {title: 'Neutral', value: 'neutral'},
+          {title: 'mixed', value: 'mixed'},
       
         ],
       },
@@ -106,11 +108,12 @@ export default {
         list: [
           {title: 'Running', value: 'running'},
           {title: 'Basketball', value: 'basketball'},
+          {title: 'Training', value: 'training'},
          
 
         ],
       },
-      hidden: ({parent}: any) => parent.category !== 'Sport',
+      hidden: ({parent}: any) => parent.category !== 'sport',
     },
     {
       name: 'timeline',

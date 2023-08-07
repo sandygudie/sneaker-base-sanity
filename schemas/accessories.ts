@@ -65,8 +65,8 @@ export default {
           {title: 'White', value: 'White'},
           {title: 'Green', value: 'Green'},
           {title: 'Orange', value: 'Orange'},
-          {title: 'Gray', value: 'Gray'},
-          {title: 'Neutral', value: 'neutral'},
+          {title: 'Grey', value: 'Grey'},
+          {title: 'mixed', value: 'mixed'},
       
         ],
       },
