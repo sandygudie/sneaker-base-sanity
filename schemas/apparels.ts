@@ -96,6 +96,7 @@ export default {
           {title: 'Joggers', value: 'joggers'},
           {title: 'Shorts', value: 'Shorts'},
           {title: 'Sport', value: 'sport'},
+          {title: 'Casual', value: 'casual'},
 
         ],
       },

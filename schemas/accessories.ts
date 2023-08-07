@@ -44,9 +44,9 @@ export default {
       title: 'Category',
       options: {
         list: [
-          {title: 'Cap', value: 'cap'},
+          {title: 'Caps', value: 'caps'},
           {title: 'Bags', value: 'bags'},
-          {title: 'Ball', value: 'ball'},
+          {title: 'Balls', value: 'balls'},
           {title: 'Socks', value: 'socks'},
           {title: 'Guards', value: 'guard'},
         ],
