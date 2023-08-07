@@ -91,10 +91,10 @@ export default {
       title: 'Category',
       options: {
         list: [
-          {title: 'Jersey', value: 'Jersey'},
-          {title: 'Shirts', value: 'Shirts'},
+          {title: 'Jersey', value: 'jersey'},
+          {title: 'Shirts', value: 'shirts'},
           {title: 'Joggers', value: 'joggers'},
-          {title: 'Shorts', value: 'Shorts'},
+          {title: 'Shorts', value: 'shorts'},
           {title: 'Sport', value: 'sport'},
           {title: 'Casual', value: 'casual'},
 
